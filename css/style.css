@@ -19,7 +19,7 @@ html, body{
     font-family: 'Source Serif Pro', serif;
 }
 
-.index__container__grid , .bodega__container__grid, .contacto__container__grid{
+.index__container__grid , .bodega__container__grid, vinos__container__grid, .quienes-somos__container__grid, .contacto__container__grid{
     display: grid;
     grid-template-areas: 
     "header"

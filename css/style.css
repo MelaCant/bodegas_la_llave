@@ -19,7 +19,7 @@ html, body{
     font-family: 'Source Serif Pro', serif;
 }
 
-.index__container__grid , .bodega__container__grid, vinos__container__grid, .quienes-somos__container__grid, .contacto__container__grid{
+.index__container__grid , .bodega__container__grid, vinos__container__grid, .quienes_somos__container__grid, .contacto__container__grid{
     display: grid;
     grid-template-areas: 
     "header"
@@ -45,9 +45,10 @@ footer{
 
 /*                                           <------- COMIENZA INDEX ------->                                                   */
 
-
 .container__nav{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     background: #AA915F;
     border: 3px solid #ffffff;   
@@ -57,18 +58,16 @@ footer{
     display: flex;
     width: 45px;
     height: 45px;
-    margin: 3px 3px 5px 30px;     
+    margin: 3px 10px 5px 5px;     
 }
 
 .menu{
     display: flex;
-    width: 100%;
-    justify-content: flex-end;
     list-style: none;
 }
 
 .menu__link{
-    font-size: 22px;
+    font-size: 20px;
     padding: 0 10px;
     text-decoration: none;
     font-weight: bold;
@@ -96,8 +95,7 @@ footer{
 .container__article{
     display: flex;
     flex-direction: column;
-    justify-items:center;
-    align-items: center;
+    align-items: center; 
 }
 
 .section__index__article{
@@ -108,11 +106,12 @@ footer{
     width: 300px;
     padding: 20px;
     height: auto;
-    margin: 50px;
+    margin: 50px 0;
     text-align: center;
     border: solid 3px #AA915F;
     border-radius: 10%;
     background-color: #e6e2e2;
+    box-shadow: -3px 6px 40px 0px rgba(87,79,79,0.75); 
 }
 
 .article__img {
@@ -223,6 +222,106 @@ footer{
     margin: 10px 20px;   
 } 
 
+/*                                        <------- COMIENZA "VINOS" -------                                          */
+
+.principal__section__vinos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.principal__tittle__vinos{    
+   text-transform:uppercase;
+   border: 4px solid #000000;
+   padding: 10px;
+   font-size: 25px;
+   text-align: center;
+   color: #ffffff;
+   background: #353550;
+}
+
+.principal__img__vinos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/vinos.jpg);
+}
+
+.subtitle__vinos{
+    text-align:center;
+    border: 4px solid #000000;
+    padding: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #353550;
+}
+
+container__article__vinos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.section__vinos__article{
+    display: flex;
+    padding: 10px;
+    border: 3px solid #000000;
+    margin: 5% 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+.section__vinos__article p{
+    font-size: 15px;
+}
+
+/*                                        <------- COMIENZA QUIENES SOMOS -------                                      */
+
+.principal__section__quienes_somos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.principal__tittle__quienes_somos{
+    text-align: center;
+    padding: 10px 0 15px 0;
+    border: 5px solid #000000;
+    background: #353550;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.principal__tittle__quienes_somos h1{
+    text-transform:uppercase;
+    font-size: 25px;
+    padding: 10px ;
+}
+
+.img__quienes_somos{
+    display: flex;
+    width: 100%;
+    background-image: url(../assets/img/quienes_somos.jpg);
+}
+
+.container__article__quienes_somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 10% 0 10%; 
+}
+
+.section__quienes__article{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin: 10% 0;
+}
+
 
 /*                                        <------- COMIENZA CONTACTO -------                                        */
 
@@ -230,26 +329,58 @@ footer{
     border: 5px solid #aa5f5f;
 }
 
+.container__contacto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
 .container__article__contacto{
     display: flex;
     flex-direction: column;
     justify-items:center;
-    align-items: center;   
+    align-items: center;
+    margin: 10% 20%; 
+}
+    
+.section__article__contacto{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 10%
 }
 
-.section__contacto__article{
+.section__article__contacto h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.article__img__contacto{
+    width: 150px;
+    height: 150px;
+    margin: 10px;   
+}
+
+.form__principal{
     display: flex;
     flex-direction: column;
-    justify-items:center;
-    align-items: center;
-    padding: 50px;
-    margin: 30px ;
+}
+
+.form__tittle{
+    text-transform:uppercase;
+    font-size: 30px;
+    color: #353586;
     text-align: center;
 }
 
-.form{
+.form__container{
     display: flex;
+    justify-content: center;
+    margin: 10% 0;
 }
+
 .section__form{
     display: flex;
     flex-direction: column;
@@ -258,13 +389,6 @@ footer{
     font-weight: bold;
 }
 
-.form__tittle{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    color: #353586;
-    margin: 50px auto ;
-}
 
 .section__form{
     display: flex;
@@ -324,7 +448,7 @@ input, textarea{
         border: 5px solid #ffffff;   
     }
     .menu__link{
-        font-size: 24px;
+        font-size: 30px;
         padding : 0 25px;
     } 
 
@@ -353,6 +477,10 @@ input, textarea{
         grid-template-rows: 80px 1fr 200px;
     }
 
+    .container__nav{
+        justify-content: space-around; 
+    }
+
     .menu__link{
         font-size: 30px;
         padding : 0 30px;
@@ -361,15 +489,15 @@ input, textarea{
     .logo{
         width: 60px;
         height: 60px;
-        margin: 5px 5px 5px 60px;     
+        margin: 5px 0;     
     }
-
+ 
     .section__index__article{
+        text-align: center;
         width: 250px;
         margin: 200px 5px; 
     }
 }
-
 
 
 /*                            <------- MEDIA QUERIES BODEGA------->                                                    */
@@ -432,8 +560,42 @@ input, textarea{
     } 
 }
 
+/*                            <------- MEDIA QUERIES VINOS------->                                                    */
 
-/*                            <------- MEDIA QUERIES CONTACTO------->                                                    */
+
+
+@media screen and (min-width: 1200px){
+
+    .principal__tittle__vinos{
+        border: 5px solid #000000;
+        padding: 30px;
+        font-size: 35px;
+    }
+
+    .subtitle__vinos{
+       padding: 30px;
+       font-size: 20px;
+    } 
+
+    .section__vinos__article{
+        padding: 50px;
+        border: 5px solid #000000;
+    } 
+    
+    .section__vinos__article p{
+        font-size: 20px;
+    }
+}
+
+/*                            <------- MEDIA QUERIES QUIENES SOMOS------->                                                    */
+
+@media screen and (min-width: 1200px){
+    .quienes_somos__container__grid{
+        grid-template-rows: 80px 1fr 200px;
+    }
+}
+
+/*                            <------- MEDIA QUERIES CONTACTO------->                                                  */
 
 
 @media screen and (min-width: 1024px){
@@ -441,7 +603,6 @@ input, textarea{
         grid-template-rows: 70px 1fr 200px;
     }
 }
-
 
 @media screen and (min-width: 1200px){
     .contacto__container__grid{
@@ -451,9 +612,9 @@ input, textarea{
     .container__article__contacto{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        margin: 0; 
     }
-        
+
     .form__tittle{
         font-size: 60px;
         color: #353586;

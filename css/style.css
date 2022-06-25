@@ -180,7 +180,8 @@ footer{
     text-transform:uppercase;
     color: #000000;
     font-weight: bold;
-    padding: 50px 50px 20px 50px;   
+    padding: 50px 50px 20px 50px;
+    transition: all 2s;
 }
 
 .section__article__bodega{
@@ -533,32 +534,36 @@ input, textarea{
     }
 
     .principal__tittle__bodega{ 
-        font-size: 80px; 
-        padding:50px;   
+        font-size: 100px; 
+        padding:40px;   
     }
 
     .section__bodega p{
         font-size: 25px;
     }
 
-    .section__article__bodega{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
-    .section__bodega__article{
-        margin: 70px;
-        
-    }
+  
     .img__bodegas{
         width: 20%;
         height: 500px; 
         margin: 10px 20px; 
-          
+        transition: all 1s;    
     } 
+
+    .img__bodegas:hover{
+        width: 25%;
+        height: 550px;   
+    } 
+
+
+
 }
+
+
+
+
+
+
 
 /*                            <------- MEDIA QUERIES VINOS------->                                                    */
 

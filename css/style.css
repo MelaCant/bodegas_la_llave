@@ -562,9 +562,6 @@ input, textarea{
 
 
 
-
-
-
 /*                            <------- MEDIA QUERIES VINOS------->                                                    */
 
 
@@ -596,9 +593,55 @@ input, textarea{
 
 @media screen and (min-width: 1200px){
     .quienes_somos__container__grid{
-        grid-template-rows: 80px 1fr 200px;
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "main main"
+        "footer footer";
+        grid-template-rows: 80px 100px 1fr 200px;
+        grid-template-columns: 1fr 1fr;
     }
+    
+    .main__quienes_somos{
+        display: ;
+    }
+    
+    .principal__tittle__quienes_somos{
+        border: 0;
+        background: #353550;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .img__quienes_somos{
+        display: inline-block;
+        width: 600px;
+        height: 900px;
+        border: 10px solid #000000;
+    }
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*                            <------- MEDIA QUERIES CONTACTO------->                                                  */
 

@@ -8,7 +8,8 @@
         <link rel="shortcut icon" href="../assets/img/favicon.ico">
         <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
         <title>Contacto</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
     </head>
     
     <!-- Acá comienza el menú-->
@@ -23,7 +24,7 @@
                         <li><a class="menu__link" href="../index.html">Inicio</a></li>
                         <li><a class="menu__link" href="./bodega.html">Bodega</a></li>
                         <li><a class="menu__link" href="./vinos.html">Vinos</a></li>
-                        <li class="link__quienes_somos"><a class="menu__link" href="./quienes_somos.html">Quienes somos</a><li>
+                        <li><a class="menu__link" href="./quienes_somos.html">Quienes somos</a><li>
                         <li><a class="menu__link" href="./contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
@@ -33,95 +34,95 @@
             <!-- Acá termina el menú-->
             
             <main>
-                <div  class="contacto__container__grid">
-                    <section class="container__contacto">
-                        <div class="mapa">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909054!2d-68.87602871899693!3d-32.88333398014228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1655858456111!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                <section class="container__contacto">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909054!2d-68.87602871899693!3d-32.88333398014228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1655858456111!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                         
-                        <section  class="container__article__contacto">
-                            <article class="section__contacto__article">
-                                <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img"/>
-                                <h2>Bodega y Estancia</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
-                            </article>
+                    <section class="container__article__contacto">
+                        <article class="section__article__contacto">
+                            <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img__contacto"/>
+                            <h2>Bodega y Estancia</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
+                        </article>
 
-                            <article class="section__contacto__article">
-                                <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img"/>
-                                <h2>Oficinas administrativas</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
-                            </article>
+                        <article class="section__article__contacto">
+                            <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img__contacto"/>
+                            <h2>Oficinas administrativas</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
+                        </article>
 
-                            <article class="section__contacto__article">
-                                <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img"/>
-                                <h2>Oficinas comerciales</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
-                            </article>
-                        </section>
+                        <article class="section__article__contacto">
+                            <img src="../assets/img/marcador_de_posicion.png" alt="logo de localizacion" class="article__img__contacto"/>
+                            <h2>Oficinas comerciales</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, maiores reiciendis ducimus earum non quas nihil reprehenderit dolorum, voluptate tenetur fugiat ad.</p>
+                        </article>
                     </section>
+                </section>
                     
-                    <!--Comienza sección formulario-->
+                 <!--Comienza sección formulario-->
                     
-                    <section  class="form">
-                        <h2 class="form__tittle">¿Tiene alguna duda?</h2>
-                        <div>
-                            <form action="contacto.html" method="get" class="section__form">
-                                <label for="nombre">Nombre:</label>
-                                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <section class="form__principal">
+                    <h2 class="form__tittle wow animate__animated animate__slideInLeft">¿Tiene alguna duda?</h2>
+                    <div class="form__container wow animate__animated animate__slideInRight">
+                        <form action="contacto.html" method="get" class="section__form">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
     
-                                <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" placeholder="Email">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
     
-                                <label for="asunto">Asunto:</label>
-                                <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" name="asunto" id="asunto" placeholder="Asunto">
     
-                                <label for="mensaje">Mensaje:</label>
-                                <textarea name="mensaje" id="mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="mensaje" id="mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
     
-                                <input type="submit" value="Enviar" class="button__enviar">
-                            </form>
-                        </div>
-                    </section>
-                </div>
+                            <input type="submit" value="Enviar" class="button__enviar">
+                        </form>
+                    </div>
+                </section>
             </main>
-        </div>
-    </body> 
-    
-    <!--Termina sección formulario--> 
-
-
         
-    <!-- Acá comienza el footer-->
+    
+            <!--Termina sección formulario--> 
 
-    <footer>
-        <div>
-            <i class="fa-solid
-            fa-cart-shopping"></i>
+
+                
+            <!-- Acá comienza el footer-->
+
+            <footer>
+                <div>
+                    <i class="fa-solid
+                    fa-cart-shopping"></i>
+                </div>
+
+                <div>
+                    <a href="#inicio"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo__footer"></a>
+                </div>
+                
+                <section class="social_media">
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </section>
+           </footer>
         </div>
-
-        <div>
-            <a href="#inicio"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo__footer"></a>
-        </div>
-          
-        <section class="social_media">
-            <div>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-facebook"></i>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-whatsapp"></i>
-            </div>
-            
-            <div>
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-        </section>
-    </footer>
-
-    <!-- Acá termina el footer-->
-
+        <script src="../assets/js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </body> 
 </html>

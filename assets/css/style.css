@@ -571,8 +571,6 @@ input, textarea{
 }
 
 
-
-
 /*                            <------- MEDIA QUERIES VINOS------->                                                    */
 
 
@@ -671,6 +669,10 @@ input, textarea{
         font-size: 60px;
         color: #353586;
         margin: 50px auto ;
+    }
+    
+    .form__container{
+        margin: 5% 0;
     }
     
     .form{

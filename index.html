@@ -13,13 +13,13 @@
     
     
   <body>
-    <!-- Comienza NavBar-->
+    <!-- Comienza NavBar -->
     <header>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <nav class="navbar navbar-expand-xl navbar-light bg-light">
-              <div class="container-fluid">
+            <nav class="navbar navbar-expand-xl navbar-light" style="background-color:#AA915F;">
+              <div class="container">
                 <a class="navbar-brand" href="#">
                   <img src="./assets/img/logo.jpg" alt ="logo" width="100px" height="100px"> 
                 </a>
@@ -29,19 +29,19 @@
                 <div class="collapse navbar-collapse show" id="navbarBasic">
                   <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Bodega</a>
+                      <a class="nav-link" aria-current="page" href="./pages/bodega.html">Bodega</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Vinos</a>
+                      <a class="nav-link" aria-current="page" href="./pages/vinos.html">Vinos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
+                      <a class="nav-link" aria-current="page" href="./pages/quienes_somos.html">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                      <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
                     </li>
                   </ul>
                 </div>
@@ -51,30 +51,99 @@
         </div>
       </div>
     </header>
-    <!-- Termina NavBar-->
+    <!-- Termina NavBar -->
     
-    <!-- Comienza img principal-->
-    <picture>
-     <img src="assets/images/bs-images/img-2x1.png" class="img-fluid" alt="img-fluid">
-    </picture>
-    <!-- Termina img principal-->
+    <main>
+      <!-- Comienza img principal -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="./assets/img/viniedo.jpg" class="img-fluid" alt="img-fluid">
+          </div>
+        </div>
+      <div> 
+      <!-- Termina img principal -->
+      
+      <!-- Comienza cards -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="card mt-3">
+              <img src="./assets/img/vino.png" class="card-img-top" alt="card-img-top" width="100px" height="100px">
+              <div class="card-body">
+                <h5 class="card-title">Restaurant</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-8">
+            <div class="card mt-3">
+              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+              <div class="card-body">
+                <h5 class="card-title">Bodega</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-8">
+            <div class="card mt-3">
+              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+              <div class="card-body">
+                <h5 class="card-title">Fincas</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-8">
+            <div class="card mt-3 mb-3">
+              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+              <div class="card-body">
+                <h5 class="card-title">Tienda</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- Termina cards -->
+    </main>
 
+    <!-- Comienza footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 text-white align-items-center" style="background-color: #242430;">
+          <div class="col-4 col-md-4 col-lg-4 text-center">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="col-4 col-md-4 col-lg-4 ">
+            <a href="#inicio"><img src="./assets/img/logo.jpg" alt ="logo" width="100px" height="100px"></a>
+          </div>
+          <section class="col-4 col-md-4 col-lg-4 text-center">
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              </div>
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Termina footer -->
 
   </body>
   <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>    

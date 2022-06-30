@@ -17,31 +17,29 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-expand-xl navbar-light" style="background-color:#AA915F;">
-              <div class="container">
+          <div class="col-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+              <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                  <img src="./assets/img/logo.jpg" alt ="logo" width="100px" height="100px"> 
+                  <img src="./assets/img/logo.png" alt="logo" width="100px" height="100px">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse show" id="navbarBasic">
-                  <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <div class="collapse navbar-collapse show" id="navbarTogglerDemo2">
+                  <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="./pages/bodega.html">Bodega</a>
+                      <a class="nav-link active" aria-current="page" href="./pages/bodega.html">Bodega</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="./pages/vinos.html">Vinos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="./pages/quienes_somos.html">Quienes somos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                      <a class="nav-link active" aria-current="page" href="./pages/vinos.html">Vinos</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/quienes_somos.html">Quienes somos</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
                     </li>
                   </ul>
                 </div>
@@ -55,54 +53,53 @@
     
     <main>
       <!-- Comienza img principal -->
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img src="./assets/img/viniedo.jpg" class="img-fluid" alt="img-fluid">
-          </div>
-        </div>
-      <div> 
-      <!-- Termina img principal -->
+      <section class="container text-center">
+        <picture>
+          <img src="./assets/img/viniedo.jpg" class="img-fluid" alt="img-fluid">
+        </picture>
+      <section>
       
+     <!-- Termina img principal -->
+
       <!-- Comienza cards -->
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-8">
-            <div class="card mt-3">
-              <img src="./assets/img/vino.png" class="card-img-top" alt="card-img-top" width="100px" height="100px">
+      <div class="container d-flex justify-content-center">
+        <div class="row flex-column flex-md-row justify-content-md-between">
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante">
               <div class="card-body">
-                <h5 class="card-title">Restaurant</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Restaurante</h5>
+                <p class="card-text">Una propuesta amigable donde el vino es el protagonista.</p>
               </div>
             </div>
           </div>
           
-          <div class="col-8">
-            <div class="card mt-3">
-              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/bodegap.svg" class="card-img-top" alt="bodega">
               <div class="card-body">
                 <h5 class="card-title">Bodega</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Construida en 1901 en Luján de Cuyo, Mendoza.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-8">
-            <div class="card mt-3">
-              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/finca.svg" class="card-img-top" alt="finca">
               <div class="card-body">
                 <h5 class="card-title">Fincas</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Dos fincas a más de 720 MSNM, de 8 y 42 hectáreas.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-8">
-            <div class="card mt-3 mb-3">
-              <img src="assets/images/bs-images/img-2x1.png" class="card-img-top" alt="card-img-top" width="150px" height="150px">
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda">
               <div class="card-body">
                 <h5 class="card-title">Tienda</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">Venta online en cajas de 6 botellas. Envío gratis.</p>
               </div>
             </div>
           </div>
@@ -115,12 +112,12 @@
 
     <footer>
       <div class="container-fluid">
-        <div class="row p-5 text-white align-items-center" style="background-color: #242430;">
+        <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
           <div class="col-4 col-md-4 col-lg-4 text-center">
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
-          <div class="col-4 col-md-4 col-lg-4 ">
-            <a href="#inicio"><img src="./assets/img/logo.jpg" alt ="logo" width="100px" height="100px"></a>
+          <div class="col-4 col-md-4 col-lg-4 text-center">
+            <a href="#inicio"><img src="./assets/img/logo.png" alt="logo" width="100px" height="100px"></a>
           </div>
           <section class="col-4 col-md-4 col-lg-4 text-center">
             <div>
@@ -139,6 +136,10 @@
               <i class="fa-brands fa-twitter"></i>
             </div>
           </section>
+          <div class="col-12 pt-5">
+            <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
+
+          </div>
         </div>
       </div>
     </footer>

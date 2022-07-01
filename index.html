@@ -1,96 +1,149 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./assets/img/favicon.ico">
-        <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
-        <title>WineWeb</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/animate.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
     
-    <!-- Acá comienza el menú-->
-    <body>
-        <div class="index__container__grid">
-            <header>
-                <nav class="container__nav">
-                    <a href="index.html"><img src="./assets/img/copa_de_vino.png" alt="logocopadevino" class="logo" id="inicio"></a>
-                    <ul class="menu">
-                        <li><a class="menu__link" href="index.html">Inicio</a></li>
-                        <li><a class="menu__link" href="./pages/bodega.html">Bodega</a></li>
-                        <li><a class="menu__link" href="./pages/vinos.html">Vinos</a></li>
-                        <li><a class="menu__link" href="./pages/quienes_somos.html">Quienes somos</a><li>
-                        <li><a class="menu__link" href="./pages/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <!-- Acá termina el menú-->
-            
-            <main>
-                <section class="principal__section">
-                    <picture>
-                        <img src="./assets/img/viniedo.jpg" alt="atardecer_viniedo" class="principal__img__index"/>
-                    </picture>
-                </section>
-
-
-                <section class="container__article">
-                    <article class="section__index__article">
-                        <img src="./assets/img/vino.png" alt="vino" class="article__img"/><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-
-                    <article class="section__index__article">
-                        <img src="./assets/img/barril.png" alt="barril"class="article__img"/><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-
-                    <article class="section__index__article">
-                        <img src="./assets/img/barril_de_vino.png" alt="enologos" class="article__img"/><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-
-                    <article class="section__index__article">
-                        <img src="./assets/img/botella_de_vino.png" alt="botella de vino" class="article__img"/><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-                </section>
-            </main>
-
-            <!-- Acá comienza el footer-->
-
-            <footer>
-                <div>
-                    <i class="fa-solid
-                    fa-cart-shopping"></i>
+    
+  <body>
+    <!-- Comienza NavBar -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/img/logo.png" alt="logo" width="100px" height="100px" id="inicio">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarTogglerDemo2">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/bodega.html">Bodega</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/vinos.html">Vinos</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/quienes_somos.html">Quienes somos</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
-        
-                <div>
-                    <a href="#inicio"><img src="./assets/img/copa_de_vino.png" alt="logocopadevino" class="logo__footer"></a>
-                </div>
-                  
-                <section class="social_media">
-                    <div>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-        
-                    <div>
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-        
-                    <div>
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </div>
-                    
-                    <div>
-                        <i class="fa-brands fa-twitter"></i>
-                    </div>
-                </section>
-            </footer>
+              </div>
+            </nav>
+          </div>
         </div>
-        <script src="./assets/js/wow.js"></script>
-        <script>
-            new WOW().init();
-        </script>  
-    </body>    
-</html>
+      </div>
+    </header>
+    <!-- Termina NavBar -->
+    
+    <main>
+      <!-- Comienza img principal -->
+      <section class="container text-center">
+        <picture>
+          <img src="./assets/img/viniedo.jpg" class="img-fluid" alt="img-fluid">
+        </picture>
+      <section>
+      
+     <!-- Termina img principal -->
 
+      <!-- Comienza cards -->
+      <div class="container d-flex justify-content-center">
+        <div class="row flex-column flex-md-row justify-content-md-between">
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante" class="img-fluid" >
+              <div class="card-body">
+                <h5 class="card-title">Restaurante</h5>
+                <p class="card-text">Una propuesta amigable donde el vino es el protagonista.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/bodega.svg" class="card-img-top" alt="bodega" class="img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Bodega</h5>
+                <p class="card-text">Construida en 1901 en Luján de Cuyo, Mendoza.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/finca.svg" class="card-img-top" alt="finca" class="img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Fincas</h5>
+                <p class="card-text">Dos fincas a más de 720 MSNM, de 8 y 42 hectáreas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+            <div class="card">
+              <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda" class="img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Tienda</h5>
+                <p class="card-text">Venta online en cajas de 6 botellas. Envío gratis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- Termina cards -->
+    </main>
+
+    <!-- Comienza footer -->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
+          <div class="col-4 col-md-4 col-lg-4 text-center">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="col-4 col-md-4 col-lg-4 text-center">
+            <a href="#inicio"><img src="./assets/img/logo.png" alt="logo" width="100px" height="100px"></a>
+          </div>
+          <section class="col-4 col-md-4 col-lg-4 text-center">
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              </div>
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </section>
+          <div class="col-12 pt-5">
+            <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Termina footer -->
+
+  </body>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>  
+</html>

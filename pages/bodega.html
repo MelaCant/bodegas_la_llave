@@ -5,109 +5,167 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../assets/img/favicon.ico">
         <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
         <title>La Bodega</title>
+        <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/animate.css">
     </head>
     
      <!-- Acá comienza el menú-->
     <body>
-        <div class="bodega__container__grid">
-            <header>
-                <nav class="container__nav">
-                    <div>
-                     <a href="../index.html"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo" id="inicio"></a>
+        <!-- Comienza NavBar -->
+        <header>
+            <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../assets/img/logo.png" alt="logo" width="100px" height="100px" id="inicio">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarTogglerDemo2">
+                        <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./bodega.html">Bodega</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./vinos.html">Vinos</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./quienes_somos.html">Quienes somos</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                        </ul>
                     </div>
-                    <ul class="menu">
-                        <li><a class="menu__link" href="../index.html">Inicio</a></li>
-                        <li><a class="menu__link" href="./bodega.html">Bodega</a></li>
-                        <li><a class="menu__link" href="./vinos.html">Vinos</a></li>
-                        <li><a class="menu__link" href="./quienes_somos.html">Quienes somos</a><li>
-                        <li><a class="menu__link" href="./contacto.html">Contacto</a></li>
-                    </ul>
+                    </div>
                 </nav>
-            </header>
-                
-            <!-- Acá termina el menú-->
-                
-            <main>
-                <section class="principal__section">
-                    <picture>
-                        <img src="../assets/img/bodega.jpg" alt="bodega" class="principal__img__bodega"/>
-                    </picture>
-                </section>
-                            
-                        
-                <section class="section__bodega">
-                    <h1 class="principal__tittle__bodega wow animate__animated animate__fadeInDown">La Bodega</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, dolore voluptas! Debitis, illo illum. Laborum commodi unde tempore iure molestiae eveniet enim labore aspernatur ullam Tempora nulla similique asperiores. Dolorum. Debitis, illo illum. Laborum commodi unde tempore iure molestiae eveniet enim labore aspernatur ullam Tempora nulla similique asperiores. Dolorum.</p>
-                </section>
-                        
-                <section class="section__article__bodega">
-                    <article class="section__bodega__article">
-                        <img src="../assets/img/campo.png" alt="campo" class="article__img__bodega"/><p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-                                    
-                    <article class="section__bodega__article">
-                        <img src="../assets/img/uvas.png" alt="campo" class="article__img__bodega"/>
-                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-                                        
-                    <article class="section__bodega__article">
-                        <img src="../assets/img/marcador_de_posicion.png" class="article__img__bodega"/>
-                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Proin dapibus</p>
-                    </article>
-                </section>
-                <section class="section__img__bodegas">
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/>
-                    <img src="../assets/img/bodegas.jpg" alt="bodegas" class="img__bodegas"/> 
-                </section>       
-            </main>
-          
-
-            <!-- Acá comienza el footer-->
-
-            <footer>
-                <div>
-                    <i class="fa-solid
-                    fa-cart-shopping"></i>
                 </div>
-        
-                <div>
-                    <a href="#inicio"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo__footer"></a>
+            </div>
+            </div>
+        </header>
+        <!-- Termina NavBar -->
+
+        <main>
+            <!-- Comienza img principal -->
+            <section class="container text-center">
+                <picture>
+                  <img src="../assets/img/bodega.jpg" class="img-fluid" alt="img-fluid">
+                </picture>
+            <section>
+      
+            <!-- Termina img principal -->
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-1 mt-5 mb-3">La Bodega</h1>
+                        <p class="text-muted">La bodega esta equipada con la más alta tecnología para vinificar las uvas provenientes de los viñedos de las más exclusivas regiones de Mendoza respetando el medio ambiente y haciendo un uso responsable de los recursos naturales.</p>
+                        <!-- Comienza cards -->
+                        <div class="card-group mt-5 mb-2 mb-xl-5">
+                            <div class="card">
+                              <img src="../assets/img/antiguedad.svg" class="card-img-top" alt="card-group-image">
+                              <div class="card-body">
+                                <h5 class="card-title">Antigüedad</h5>
+                                <p class="card-text">Construida en 1901.</p>
+                               </div>
+                            </div>
+                            <div class="card">
+                              <img src="../assets/img/capacidad.svg" class="card-img-top" alt="card-group-image">
+                              <div class="card-body">
+                                <h5 class="card-title">Capacidad</h5>
+                                <p class="card-text">1.500.000 litros</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="../assets/img/ubicacion.svg" class="card-img-top" alt="card-group-image">
+                              <div class="card-body">
+                                <h5 class="card-title">Ubicación</h5>
+                                <p class="card-text">Godoy Cruz, Mendoza.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Termina cards -->
+                    </div>
                 </div>
-                
-                <section class="social_media">
-                    <div>
-                        <i class="fa-brands fa-instagram"></i>
+            </div>
+            
+            <!-- Comienza carousel -->
+
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-        
-                    <div>
-                        <i class="fa-brands fa-facebook"></i>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-        
-                    <div>
-                        <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </main>
+        <!-- Termina carousel -->
+
+        <!-- Comienza footer -->
+
+        <footer>
+            <div class="container-fluid">
+            <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
+                <div class="col-4 col-md-4 col-lg-4 text-center">
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="col-4 col-md-4 col-lg-4 text-center">
+                <a href="#inicio"><img src="../assets/img/logo.png" alt="logo" width="100px" height="100px"></a>
+                </div>
+                <section class="col-4 col-md-4 col-lg-4 text-center">
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
                     </div>
-                    
-                    <div>
-                        <i class="fa-brands fa-twitter"></i>
-                    </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
                 </section>
-            </footer>
-        </div>
-        <script src="../assets/js/wow.js"></script>
-        <script>
-            new WOW().init();
-        </script>
-    </body>    
+                <div class="col-12 pt-5">
+                <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
+                </div>
+            </div>
+            </div>
+        </footer>
+        
+        <!-- Termina footer -->
+    </body>
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>     
 </html>
 

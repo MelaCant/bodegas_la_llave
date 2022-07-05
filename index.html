@@ -1,149 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
-    <title>Home</title>
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/img/logo.ico">
+        <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
+        <title>Home</title>
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
+    </head>
     
     
-  <body>
-    <!-- Comienza NavBar -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-12">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img src="./assets/img/logo.png" alt="logo" width="100px" height="100px" id="inicio">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse show" id="navbarTogglerDemo2">
-                  <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./pages/bodega.html">Bodega</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./pages/vinos.html">Vinos</a>
-                    </li><li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./pages/quienes_somos.html">Quienes somos</a>
-                    </li><li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
-                    </li>
-                  </ul>
+    <body>
+        <!-- Comienza NavBar -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <img src="./assets/img/logo.png" alt="logo" class="logo" id="inicio">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/bodega.html">Bodega</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/vinos.html">Vinos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/quienes_somos.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-              </div>
-            </nav>
-          </div>
+            </div>
+        </header>
+        <!-- Termina NavBar -->
+        
+        <main>
+        <!-- Comienza img principal -->
+        <section class="container text-center">
+            <picture>
+            <img src="./assets/img/viniedo.jpg" class="img-fluid animate__animated animate__fadeIn" alt="img-fluid">
+            </picture>
+        <section>
+        
+        <!-- Termina img principal -->
+
+        <!-- Comienza cards -->
+        <div class="container d-flex justify-content-center">
+            <div class="row flex-column flex-md-row justify-content-md-between">
+                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                    <div class="card shadow wow animate__animated animate__zoomIn">
+                        <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante" class="img-fluid" >
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Restaurante</strong></h5>
+                            <p class="card-text"><small>Una propuesta amigable donde el vino es el protagonista</small>.</p>
+                            <a href="#" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                    <div class="card shadow wow animate__animated animate__zoomIn">
+                        <img src="./assets/img/bodega.svg" class="card-img-top" alt="bodega" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Bodega</strong></h5>
+                            <p class="card-text"><small>Construida en 1901 en Luján de Cuyo, Mendoza.</small></p>
+                            <a href="#" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                    <div class="card shadow wow animate__animated animate__zoomIn">
+                        <img src="./assets/img/finca.svg" class="card-img-top" alt="finca" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Fincas</strong></h5>
+                            <p class="card-text"><small>Dos fincas a más de 720 MSNM, de 8 y 42 hectáreas.</small></p>
+                            <a href="./pages/bodega.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                        <div class="card shadow wow animate__animated animate__zoomIn">
+                        <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Tienda</strong></h5>
+                            <p class="card-text"><small>Venta online en cajas de 6 botellas. Envío gratis.</small></p>
+                            <a href="#" class="btn">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Termina cards -->
+        </main>
+
+        <!-- Comienza footer -->
+
+        <footer>
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
+            <div class="col-4 col-md-4 col-lg-4 text-center">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4 text-center">
+                <a href="#inicio"><img src="./assets/img/logo.png" alt="logo" class="logo"></a>
+            </div>
+            <section class="col-4 col-md-4 col-lg-4 text-center">
+                <div>
+                <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+            </section>
+            <div class="col-12 pt-5">
+                <p class="text-white text-center"><small>Copyright - All rights reserved © 2022</small></p>
+            </div>
+            </div>
         </div>
-      </div>
-    </header>
-    <!-- Termina NavBar -->
-    
-    <main>
-      <!-- Comienza img principal -->
-      <section class="container text-center">
-        <picture>
-          <img src="./assets/img/viniedo.jpg" class="img-fluid" alt="img-fluid">
-        </picture>
-      <section>
-      
-     <!-- Termina img principal -->
-
-      <!-- Comienza cards -->
-      <div class="container d-flex justify-content-center">
-        <div class="row flex-column flex-md-row justify-content-md-between">
-          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-            <div class="card">
-              <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante" class="img-fluid" >
-              <div class="card-body">
-                <h5 class="card-title">Restaurante</h5>
-                <p class="card-text">Una propuesta amigable donde el vino es el protagonista.</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-            <div class="card">
-              <img src="./assets/img/bodega.svg" class="card-img-top" alt="bodega" class="img-fluid">
-              <div class="card-body">
-                <h5 class="card-title">Bodega</h5>
-                <p class="card-text">Construida en 1901 en Luján de Cuyo, Mendoza.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-            <div class="card">
-              <img src="./assets/img/finca.svg" class="card-img-top" alt="finca" class="img-fluid">
-              <div class="card-body">
-                <h5 class="card-title">Fincas</h5>
-                <p class="card-text">Dos fincas a más de 720 MSNM, de 8 y 42 hectáreas.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-            <div class="card">
-              <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda" class="img-fluid">
-              <div class="card-body">
-                <h5 class="card-title">Tienda</h5>
-                <p class="card-text">Venta online en cajas de 6 botellas. Envío gratis.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-      <!-- Termina cards -->
-    </main>
-
-    <!-- Comienza footer -->
-
-    <footer>
-      <div class="container-fluid">
-        <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
-          <div class="col-4 col-md-4 col-lg-4 text-center">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
-          <div class="col-4 col-md-4 col-lg-4 text-center">
-            <a href="#inicio"><img src="./assets/img/logo.png" alt="logo" width="100px" height="100px"></a>
-          </div>
-          <section class="col-4 col-md-4 col-lg-4 text-center">
-            <div>
-              <i class="fa-brands fa-instagram"></i>
-              </div>
-            <div>
-              <i class="fa-brands fa-facebook"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-whatsapp"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-twitter"></i>
-            </div>
-          </section>
-          <div class="col-12 pt-5">
-            <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-    <!-- Termina footer -->
-
-  </body>
-  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>  
+        </footer>
+        
+        <!-- Termina footer -->
+    </body>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script> 
 </html>
+

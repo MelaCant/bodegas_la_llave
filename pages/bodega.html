@@ -5,10 +5,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/img/logo.ico">
         <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
         <title>La Bodega</title>
         <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
     </head>
     
      <!-- Acá comienza el menú-->
@@ -16,37 +18,39 @@
         <!-- Comienza NavBar -->
         <header>
             <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
-                    <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="../assets/img/logo.png" alt="logo" width="100px" height="100px" id="inicio">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse show" id="navbarTogglerDemo2">
-                        <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./bodega.html">Bodega</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./vinos.html">Vinos</a>
-                        </li><li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./quienes_somos.html">Quienes somos</a>
-                        </li><li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
-                        </li>
-                        </ul>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <img src="../assets/img/logo.png" alt="logo" class="logo" id="inicio">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="./bodega.html">Bodega</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./vinos.html">Vinos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./quienes_somos.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
-                    </div>
-                </nav>
                 </div>
-            </div>
             </div>
         </header>
         <!-- Termina NavBar -->
@@ -55,7 +59,7 @@
             <!-- Comienza img principal -->
             <section class="container text-center">
                 <picture>
-                  <img src="../assets/img/bodega.jpg" class="img-fluid" alt="img-fluid">
+                  <img src="../assets/img/bodega.jpg" class="img-fluid animate__animated animate__fadeIn" alt="img-fluid">
                 </picture>
             <section>
       
@@ -64,10 +68,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h1 class="display-1 mt-5 mb-3">La Bodega</h1>
-                        <p class="text-muted">La bodega esta equipada con la más alta tecnología para vinificar las uvas provenientes de los viñedos de las más exclusivas regiones de Mendoza respetando el medio ambiente y haciendo un uso responsable de los recursos naturales.</p>
+                        <h1 class="display-1 mt-5 mb-5 wow animate__animated animate__slideInLeft">La Bodega</h1>
+                        <p class="text-muted  wow animate__animated animate__slideInRight">La bodega está equipada con la más alta tecnología para vinificar las uvas provenientes de los viñedos de las más exclusivas regiones de Mendoza respetando el medio ambiente y haciendo un uso responsable de los recursos naturales.</p>
                         <!-- Comienza cards -->
-                        <div class="card-group mt-5 mb-2 mb-xl-5">
+                        <div class="card-group mt-5 mb-2 mb-xl-5 shadow">
                             <div class="card">
                               <img src="../assets/img/antiguedad.svg" class="card-img-top" alt="card-group-image">
                               <div class="card-body">
@@ -97,37 +101,62 @@
             
             <!-- Comienza carousel -->
 
-            <div class="container">
+            <div class="container mb-1">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="carousel-1">
                         </div>
-                        <div class="carousel-item">
-                            <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="carousel-2">
                         </div>
-                        <div class="carousel-item">
-                            <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="carousel-3">
                         </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
         </main>
         <!-- Termina carousel -->
+        
+        <!-- Comienza cards -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Termina cards -->
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- Comienza footer -->
 
@@ -138,7 +167,7 @@
                 <i class="fa-solid fa-cart-shopping"></i>
                 </div>
                 <div class="col-4 col-md-4 col-lg-4 text-center">
-                <a href="#inicio"><img src="../assets/img/logo.png" alt="logo" width="100px" height="100px"></a>
+                <a href="#inicio"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
                 </div>
                 <section class="col-4 col-md-4 col-lg-4 text-center">
                 <div>
@@ -158,7 +187,7 @@
                 </div>
                 </section>
                 <div class="col-12 pt-5">
-                <p class="text-white text-center">Copyright - All rights reserved © 2022</p>
+                <p class="text-white text-center"><small>Copyright - All rights reserved © 2022</small></p>
                 </div>
             </div>
             </div>
@@ -166,6 +195,10 @@
         
         <!-- Termina footer -->
     </body>
-    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>     
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>      
 </html>
 

@@ -5,97 +5,186 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../assets/img/favicon.ico">
+        <link rel="shortcut icon" href="../assets/img/logo.ico">
         <script src="https://kit.fontawesome.com/b1cb661ecf.js" crossorigin="anonymous"></script>
         <title>Vinos</title>
+        <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="../assets/css/animate.css">
     </head>
     
-    <!-- Acá comienza el menú-->
-    <body>
-        <div class="vinos__container__grid">
-            <header>
-                <nav class="container__nav">
-                    <div>
-                     <a href="../index.html"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo" id="inicio"></a>
-                    </div>
-                    <ul class="menu">
-                        <li><a class="menu__link" href="../index.html">Inicio</a></li>
-                        <li><a class="menu__link" href="./bodega.html">Bodega</a></li>
-                        <li><a class="menu__link" href="./vinos.html">Vinos</a></li>
-                        <li><a class="menu__link" href="./quienes_somos.html">Quienes somos</a><li>
-                        <li><a class="menu__link" href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <!-- Acá termina el menú-->
-            
-            <main>
-                <section class="principal__section__vinos">
-                    <h1 class="principal__tittle__vinos">Nuestros vinos</h1>
-                    <picture>
-                        <img src="../assets/img/vinos.jpg" alt="botella_vino" class="principal__img__vinos"/>
-                    </picture>
-                    <div class="subtitle__vinos">
-                        <h2>Elaborar vinos que tengan identidad propia, hacen de este lugar una bodega única en el mundo</h2>
-                    </div>
-                </section>
-                
-                <section class="container__article__vinos">
-                    <article class="section__vinos__article wow animate__animated animate__slideInLeft">
-                        <img src="../assets/img/botella_de_vino(1).png" alt="imagenes" class="article__img"/>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ipsam neque reiciendis alias cum rem fugit modi fuga, expedita atque.Repudiandae nemo illo quibusdam dolore.</p>
-                    </article>
-                                
-                    <article class="section__vinos__article wow animate__animated animate__slideInRight">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ipsam neque reiciendis alias cum rem fugit modi fuga, expedita atque. Repudiandae nemo illo quibusdam dolore.</p>
-                        <img src="../assets/img/botella_de_vino(2).png" alt="imagenes" class="article__img"/>
-                    </article>
-                                
-                    <article class="section__vinos__article wow animate__animated animate__slideInLeft">
-                        <img src="../assets/img/botella_de_vino.png" alt="imagenes" class="article__img"/>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ipsam neque reiciendis alias cum rem fugit modi fuga, expedita atque. Repudiandae nemo illo quibusdam dolore.</p>
-                    </article>
-                </section>
-            </main>  
     
-            <!-- Acá comienza el footer-->
-
-            <footer>
-                <div>
-                    <i class="fa-solid
-                    fa-cart-shopping"></i>
+    <body>
+        <!-- Comienza NavBar -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <img src="../assets/img/logo.png" alt="logo" class="logo" id="inicio">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./bodega.html">Bodega</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="./vinos.html">Vinos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./quienes_somos.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-
-                <div>
-                    <a href="#inicio"><img src="../assets/img/copa_de_vino.png" alt="logocopadevino" class="logo__footer"></a>
+            </div>
+        </header>
+        <!-- Termina NavBar -->
+        
+        <main>
+            <!-- Comienza carousel -->
+            <h1 class="display-3 text-center mt-5 mb-5 animate__animated animate__fadeIn">Nuestros vinos</h1>
+            <section class="container">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <section class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="../assets/img/carouselv-1.jpg" class="d-block w-100" alt="vinos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="vinos">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/img/carouselv-3.jpg" class="d-block w-100" alt="vinos">
+                        </div>
+                    </section>
                 </div>
+            </section>
+            <!-- Termina carousel -->
+            <section class="container text-white bg-dark">
+                <h2 class="text-center mt-5 mb-5 subtitle_vinos">Elaborar vinos que tengan identidad propia, hacen de este lugar una bodega única en el mundo</h2>
+            </section>
                 
-                <section class="social_media">
-                    <div>
-                        <i class="fa-brands fa-instagram"></i>
+            <!-- Comienza card -->
+            <div class="container d-flex justify-content-center">
+                <div class="row flex-column flex-md-row justify-content-md-between">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="../assets/img/vinos1.jpg" class="img-fluid rounded-start" alt="vinos">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mt-2 mb-3">Malbec</h5>
+                              <p class="card-text">Es un field blend de antiguas vides de Malbec entremezcladas con Petit Verdot, lo que le aporta una singularidad única. Un vino que con años de guarda es capaz de lograr una complejidad muy singular</p>
+                              <p class="card-text"><small class="text-muted">Ingresar a la tienda online</small></p>
+                            </div>
+                          </div>
+                        </div>
                     </div>
+        
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="../assets/img/vinos2.jpg" class="img-fluid rounded-start" alt="vinos">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mt-2 mb-3">Pinot Noir</h5>
+                              <p class="card-text">Su capacidad de entregar aromas y sabores a frutas rojas y berries frescos, lo hace único. Su cuerpo es considerablemente más ligero que el del cabernet sauvignon, y su consistencia es más sedosa, liviana y jugosa en la boca.</p>
+                              <p class="card-text"><small class="text-muted">Ingresar a la tienda online</small></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+        
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="../assets/img/vinos3.jpg" class="img-fluid rounded-start" alt="vino">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mt-2 mb-3">Cabernet Sauvignon</h5>
+                              <p class="card-text">Un Cabernet Sauvignon sobrio, señorial y de gran estructura, elaborado a partir de uvas cosechadas en viñedos implantados en Valle de Uco y Luján de Cuyo.</p>
+                              <p class="card-text"><small class="text-muted">Ingresar a la tienda online</small></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="../assets/img/vinos4.jpg" class="img-fluid rounded-start" alt="vino">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mt-2 mb-3">Malbec Orgánico</h5>
+                              <p class="card-text">Nuestro primer vino sin intervenciones químicas ni en la finca ni en la bodega, que busca expresar con pureza y precisión la esencia del terruño Valle de Uco. </p>
+                              <p class="card-text"><small class="text-muted">Ingresar a la tienda online</small></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!-- Termina card -->
+        </main>  
+    
+        <!-- Comienza footer -->
 
+        <footer>
+            <div class="container-fluid">
+                <div class="row p-5 pb-2 text-white align-items-center" style="background-color: #242430;">
+                <div class="col-4 col-md-4 col-lg-4 text-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="col-4 col-md-4 col-lg-4 text-center">
+                    <a href="#inicio"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
+                </div>
+                <section class="col-4 col-md-4 col-lg-4 text-center">
                     <div>
-                        <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
                     </div>
-
                     <div>
-                        <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-facebook"></i>
                     </div>
-                    
                     <div>
-                        <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                    <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div>
+                    <i class="fa-brands fa-twitter"></i>
                     </div>
                 </section>
-            </footer>
-        </div>  
-        <script src="../assets/js/wow.js"></script>
-        <script>
-            new WOW().init();
-        </script>
+                <div class="col-12 pt-5">
+                    <p class="text-white text-center"><small>Copyright - All rights reserved © 2022</small></p>
+                </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Termina footer -->
+        
     </body> 
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script> 
 </html>
 

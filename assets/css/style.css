@@ -8,7 +8,6 @@
     margin: 0px;
     padding: 0px;
     font-size: 1rem;
-
 }
 
 html, body{
@@ -20,10 +19,6 @@ html, body{
 
  /*                            <------- NAVBAR------->                                              */
 
-h1 , h2
-, h3, h4, h5, h6{
-    font-family: 'Lato', sans-serif;
-}
 
 
 .logo{
@@ -36,27 +31,14 @@ li{
     padding: 15px;
 }
 
+
 /*                            <------- INDEX------->                                              */
+
 
 img.card-img-top{
     width: 200px;
     height: 180px;
     align-self: center;
-}
-
-.btn{
-    background: rgba(116, 81, 158, 0.717);
-    color: #ffffff;
-    border:none;
-    padding: 12px 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.btn:hover{
-    background:  rgba(46, 14, 82, 0.717);
-    color:#ffffff;
-    font-weight: bold;
 }
 
 
@@ -110,12 +92,6 @@ img.card-img-top{
     margin: 0 20%;
     font-size: 1em;
     font-weight: bold;
-}
-
-
-.section__form{
-    display: flex;
-    flex-direction: column;
     width: 60%; 
 }
 
@@ -126,18 +102,4 @@ input, textarea{
   margin: 5px 0px 10px;
 }
 
-.button__enviar{
-    display: inline-block;
-    border-radius: 8px;
-    padding: 15px 15px;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 20px;
-    background: #575797;
-    transition: all 0.5s;
-}
 
-.button__enviar:hover{
-    background: #32326a;
-    font-weight: bold;
-}

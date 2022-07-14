@@ -42,6 +42,25 @@ img.card-img-top{
 }
 
 
+/*                            <------- FOOTER------->                                              */
+
+.copyright_text{
+    font-size: 10px;
+}
+
+.footer_text{
+    font-size: 16px;
+}
+
+.footer_subtext{
+    font-size: 11px;
+}
+
+.fas, .fa-brands{
+   padding: 4px;
+}
+
+
 /*                            <------- VINOS------->                                              */
 
 .subtitle_vinos{

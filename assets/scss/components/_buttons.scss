@@ -1,18 +1,23 @@
-/* BUTTONS "NAVBAR" */
+/* BUTTONS "INDEX" */
 
-.btn{
-    background: rgba(116, 81, 158, 0.717);
-    color: #ffffff;
+@mixin btn($font-color, $background-color, $font-size){
+    color: $font-color;
+    background: $background-color;
+    font-size: $font-size;
     border:none;
     padding: 12px 40px;
-    font-weight: 500;
     letter-spacing: 1px;
+}
 
-    &:hover{
-        background:  rgba(46, 14, 82, 0.717);
-        color:#ffffff;
-        font-weight: bold;
-    }
+.btn{
+    @include btn (#ffffff, rgba(116, 81, 158, 0.717), 500)
+}
+
+
+.btn:hover{
+    @extend .btn;
+    background:  rgba(46, 14, 82, 0.717);
+    font-weight: bold;
 }
 
 
@@ -27,10 +32,12 @@
     font-size: 20px;
     background: #575797;
     transition: all 0.5s;
+}
+   
 
-    &:hover{
-        background: #32326a;
-        font-weight: bold;
-    }
+.button__enviar:hover{
+    @extend .button__enviar;
+    background: #32326a;
+    font-weight: bold;
 }
 

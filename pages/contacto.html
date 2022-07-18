@@ -18,11 +18,10 @@
         <link rel="stylesheet" href="../assets/css/animate.css">
     </head>
     
-    <!-- Acá comienza el menú-->
     <body>
-         <!-- Comienza NavBar -->
-         <header>
-            <div class="container">
+        <!-- Comienza NavBar -->
+        <header>
+            <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,95 +59,90 @@
         </header>
         <!-- Termina NavBar -->
             
-            <main>
-                <!-- Comienza mapa -->
-                <div class="container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909054!2d-68.87602871899693!3d-32.88333398014228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1655858456111!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <!-- Termina mapa -->
+        <main>
+            <!-- Comienza mapa -->
+            <div class="container-fluid m-0 p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909054!2d-68.87602871899693!3d-32.88333398014228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1655858456111!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Termina mapa -->
                 
-                <div class="container text-white bg-dark">
-                    <div class="row">
-                        <div class="col-12 mt-4 mb-4 col-lg-4">
-                            <article class="text-center">
-                                <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication"/>
-                                <h2 class="title_contacto mt-2">Bodega y Estancia</h2>
-                                <p><small>Luján de Cuyo, Mendoza.</small></p>
-                            </article>
-                        </div>
-                        <div class="col-12 mt-4 mb-4 col-lg-4">
-                            <article class="text-center">
-                                <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication">
-                                <h2 class="title_contacto mt-2">Oficinas administrativas</h2>
-                                <p><small>Granaderos 1965, Capital, Mendoza.</small></p>
-                            </article>
-                        </div>
-                        <div class="col-12 mt-4 mb-4 col-lg-4">
-                            <article class="text-center">
-                                <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication">
-                                <h2 class="title_contacto mt-2">Oficinas comerciales</h2>
-                                <p><small>Av. Boulogne Sur Mer 3052, Capital, Mendoza.</small></p>
-                            </article>
-                        </div>
-                        
+            <div class="container-fluid text-white bg-dark p-0">
+                <div class="row">
+                    <div class="col-12 mt-4 mb-4 col-lg-4">
+                        <article class="text-center">
+                            <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication"/>
+                            <h2 class="title_contacto mt-2">Bodega y Estancia</h2>
+                            <p><small>Luján de Cuyo, Mendoza.</small></p>
+                        </article>
+                    </div>
+                    <div class="col-12 mt-4 mb-4 col-lg-4">
+                        <article class="text-center">
+                            <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication">
+                            <h2 class="title_contacto mt-2">Oficinas administrativas</h2>
+                            <p><small>Granaderos 1965, Capital, Mendoza.</small></p>
+                        </article>
+                    </div>
+                    <div class="col-12 mt-4 mb-4 col-lg-4">
+                        <article class="text-center">
+                            <img src="../assets/img/ubicacion.svg" alt="logo de localizacion" class= "img_ubication">
+                            <h2 class="title_contacto mt-2">Oficinas comerciales</h2>
+                            <p><small>Av. Boulogne Sur Mer 3052, Capital, Mendoza.</small></p>
+                        </article>
                     </div>
                 </div>
+            </div>
                
-                
-                    
-                 <!--Comienza sección formulario-->
-                    
-                <section class="form__principal">
-                    <h2 class="display-3 text-center mt-5 mb-4 animate__animated animate__fadeIn">¿Tiene alguna duda?</h2>
-                    <div class="form__container wow animate__animated animate__slideInRight">
-                        <form action="contacto.html" method="get" class="section__form">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <!--Comienza sección formulario-->
+            <section class="form__principal container-fluid">
+                <h2 class="display-3 text-center mt-5 mb-4 animate__animated animate__fadeIn">¿Tiene alguna duda?</h2>
+                <div class="form__container wow animate__animated animate__slideInRight">
+                    <form action="contacto.html" method="get" class="section__form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
     
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" placeholder="Email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
     
-                            <label for="asunto">Asunto:</label>
-                            <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto">
     
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea name="mensaje" id="mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
     
-                            <input type="submit" value="Enviar" class="button__enviar">
-                        </form>
-                    </div>
-                </section>
-            </main>
-        
-    
-            <!--Termina sección formulario--> 
+                        <input type="submit" value="Enviar" class="button__enviar">
+                    </form>
+                 </div>
+            </section>
+        </main>
+        <!--Termina sección formulario--> 
 
-
-                
-             <!-- Comienza footer -->
+        <!-- Comienza footer -->
         <footer>
             <div class="container-fluid">
                 <div class="row text-white text-center " style="background-color: #242430;">
                     <div class="mb-3 col-md-3 col-lg-3 col-xl-2 mt-4 align-items-center">
-                        <a href="./index.html"><img src="../assets/img/logo.png" alt="logo" class="logo" id="inicio"></a>
+                        <a href="../index.html"><img src="../assets/img/logo.png" alt="logo" class="logo" id="inicio"></a>
                     </div>
             
                     <div class="col-md-2 col-lg-2 col-xl-2 mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="../pages/quienes_somos.html" class="text-white" style="text-decoration: none;">Nosotros</h4></a>  
+                        <h4 class="mb-4 font-weight-bold">
+                            <a href="../pages/quienes_somos.html" class="text-white" style="text-decoration: none;">
+                            Nosotros</a>
+                        </h4>  
                     </div>
             
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="#" class="text-white" style="text-decoration: none;">
+                        <h4 class="mb-4 font-weight-bold"><a href="./bodega.html" class="text-white" style="text-decoration: none;">
                             Nuestros viñedos</a>
                         </h4> 
                     </div>
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="../pages/vinos.html" class="text-white" style="text-decoration: none;">Nuestros vinos</a>
+                        <h4 class="mb-4 font-weight-bold">
+                            <a href="../pages/vinos.html" class="text-white" style="text-decoration: none;">Nuestros vinos</a>
                         </h4>
                     </div>
             
-                    
                     <div class="col-md-4 col-lg-3 col-xl-2 mx-auto mt-4">
                         <h4 class="mb-4 font-weight-bold"> Contacto</h4>
                         <h5><i class="fas fa-home"></i> Luján de Cuyo, Mendoza, Argentina.</h5>
@@ -185,24 +179,21 @@
                     <hr class="my-2">
 
                     <!-- Empieza Copyright -->
-    
-                        <div class="container d-flex justify-content-center">
-                            <div class="row flex-xl-row">
-                                <h6 class="col mb-4">
-                                   © 2022 Melina Canteros |
-                                   Politicas de Privacidad |
-                                   Terminos y condiciones |
-                                   Beber con moderación. No se vende a menores de 18 años | Ley de consumo responsable | 
-                                   Defensa del consumidor
-                                </h6>
-                            </div>
+                    <div class="container d-flex justify-content-center">
+                        <div class="row flex-xl-row">
+                            <h6 class="col mb-4">
+                               © 2022 Melina Canteros |
+                               Politicas de Privacidad |
+                               Terminos y condiciones |
+                               Beber con moderación. No se vende a menores de 18 años | Ley de consumo responsable | 
+                               Defensa del consumidor
+                            </h6>
                         </div>
-                   
+                    </div>
                     <!--Termina Copyright -->  
                 </div>
             </div>   
         </footer>  
-        
         <!-- Termina footer -->
     </body>
     <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>

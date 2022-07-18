@@ -144,10 +144,10 @@ html, body{
 .section__form{
     display: flex;
     flex-direction: column;
-    margin: 0 20%;
+    margin: 0 10%;
     font-size: 1em;
     font-weight: bold;
-    width: 60%; 
+    width: 80%; 
 }
 
 input, textarea{
@@ -162,7 +162,9 @@ input, textarea{
 @media screen and (max-width: 576px){
     .gallery{
         display: grid;
+        grid-template-rows: auto;
         padding: 0;
+    
     }
 
     .gallery__img{

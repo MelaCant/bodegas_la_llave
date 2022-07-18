@@ -30,14 +30,14 @@
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
-    background: #575797;
+    background:rgba(83, 57, 115, 0.717);
     transition: all 0.5s;
 }
    
 
 .button__enviar:hover{
     @extend .button__enviar;
-    background: #32326a;
+    background:  rgba(46, 14, 82, 0.717);
     font-weight: bold;
 }
 

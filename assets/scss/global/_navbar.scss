@@ -1,6 +1,21 @@
 
 h1 , h2
-, h3, h4, h5, h6{
+, h3{
     font-family: $tittle-font;
 }
 
+h4, h5, h6{
+    font-family: $footer-font;
+}
+
+
+
+.logo{
+    width: 100px; 
+    height: 100px;
+}
+
+
+li{
+    padding: 15px;
+}

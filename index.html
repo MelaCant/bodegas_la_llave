@@ -20,9 +20,9 @@
     
     
     <body>
-        <!-- Comienza NavBar -->
         <header>
-            <div class="container">
+            <!-- Comienza NavBar -->
+            <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -61,66 +61,85 @@
         <!-- Termina NavBar -->
         
         <main>
-        <!-- Comienza img principal -->
-        <section class="container text-center">
-            <picture>
-            <img src="./assets/img/viniedo.jpg" class="img-fluid animate__animated animate__fadeIn" alt="img-fluid">
-            </picture>
-        <section>
-        
-        <!-- Termina img principal -->
-
-        <!-- Comienza cards -->
-        <div class="container d-flex justify-content-center">
-            <div class="row flex-column flex-md-row justify-content-md-between">
-                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-                    <div class="card shadow wow animate__animated animate__zoomIn">
-                        <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante" class="img-fluid" >
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Restaurante</strong></h5>
-                            <p class="card-text"><small>Una propuesta amigable donde el vino es el protagonista</small>.</p>
-                            <a class="btn">Ver más</a>
-                        </div>
+            <!-- Comienza img principal -->
+            <div class="container-fluid p-0 m-0">
+                <section class="img__principal">
+                    <img src="./assets/img/logo.png" alt="logo" class="logo p-2 m-4 animate__animated animate__fadeIn animate__delay-1s">
+                    <h1 class="text-white animate__animated animate__fadeInDown animate__delay-1s p-2 display-5 text-center tittle__principal">
+                        Bienvenidos<br> somos<br> Bodegas La Llave
+                    </h1> 
+                </section>
+            </div>
+            <!-- Termina img principal -->
+            <!-- Comienza enólogos -->
+            <div class="container d-flex justify-content-center mt-5">
+                <div class="row flex-column flex-lg-row p-2">
+                    <div class="col-12 col-lg-6 p-0 text-center">
+                        <picture>
+                            <img src="../assets/img/enologo1.jpg" class="img-fluid img__enologo" alt="enologo">
+                        </picture>
                     </div>
-                </div>
-            
-                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-                    <div class="card shadow wow animate__animated animate__zoomIn">
-                        <img src="./assets/img/bodega.svg" class="card-img-top" alt="bodega" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Bodega</strong></h5>
-                            <p class="card-text"><small>Construida en 1901 en Luján de Cuyo, Mendoza.</small></p>
-                            <a href="./pages/bodega.html" class="btn">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-                    <div class="card shadow wow animate__animated animate__zoomIn">
-                        <img src="./assets/img/finca.svg" class="card-img-top" alt="finca" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Fincas</strong></h5>
-                            <p class="card-text"><small>Dos fincas a más de 720 MSNM, de 8 y 42 hectáreas.</small></p>
-                            <a class="btn">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-                        <div class="card shadow wow animate__animated animate__zoomIn">
-                        <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda" class="img-fluid">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Tienda</strong></h5>
-                            <p class="card-text"><small>Venta online en cajas de 6 botellas. Envío gratis.</small></p>
-                            <a class="btn">Comprar</a>
-                        </div>
+                    <div class="col-12 col-lg-6 bg-light p-2 p-xl-5 ">
+                        <h3><span class="tittle__enologo pt-4 pb-3">Enóloga</span><strong> Victoria Pernice</strong></h3>
+                        <p class="mb-5 mt-3"><small>Heredera de Bodegas La Llave, ha elaborado vinos de distinción y reconocimiento internacional, sin alejarse de sus orígenes.</small>
+                        </p>
+                        <h3><strong>Filosofía de la Vinicultura</strong></h3>
+                        <p class="mb-4 mt-3"><small>«Nuestra filosofía de elaboración es respetar la tierra, la altura, la viña, la uva y la gente que beberá nuestros vinos. Permitiendo que la expresión característica del lugar y la altitud se supere año tras año» Victoria Pernice.</small>
+                        </p>
+                        <a class="btn"><small>VER MÁS</small></a>
                     </div>
                 </div>
             </div>
-        </div> 
-        <!-- Termina cards -->
+            <!-- Termina enólogos -->
+           
+            <!-- Comienza cards -->
+            <div class="container d-flex justify-content-center">
+                <div class="row flex-md-row justify-content-md-between pt-5 pb-5">
+                    <div class="col-6 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                        <div class="card shadow wow animate__animated animate__zoomIn">
+                            <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante">
+                            <div class="card-body text-center">
+                                <h5><strong>Restaurante</strong></h5>
+                                <p><small>Una propuesta donde el vino es el protagonista</small></p>
+                                <a class="btn"><small>VER MÁS</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                        <div class="card shadow wow animate__animated animate__zoomIn">
+                            <img src="./assets/img/bodega.svg" class="card-img-top" alt="bodega">
+                            <div class="card-body text-center">
+                                <h5><strong>Bodega</strong></h5>
+                                <p><small>Construida en 1901 en Luján de Cuyo, Mendoza</small></p>
+                                <a class="btn"><small>VER MÁS</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                        <div class="card shadow wow animate__animated animate__zoomIn">
+                            <img src="./assets/img/finca.svg" class="card-img-top" alt="finca">
+                            <div class="card-body text-center">
+                                <h5><strong>Finca</strong></h5>
+                                <p><small>Nuestra finca yace a 780 mts sobre nivel del mar</small></p>
+                                <a class="btn"><small>VER MÁS</small></a>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-6 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                        <div class="card shadow wow animate__animated animate__zoomIn">
+                           <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda">
+                            <div class="card-body text-center">
+                                <h5><strong>Tienda</strong></h5>
+                                <p><small>Venta online en cajas de 6 botellas. Envío gratis</small></p>
+                                <a class="btn"><small>VER MÁS</small></a>
+                           </div>    
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- Termina cards -->
         </main>
-
+    
         <!-- Comienza footer -->
         <footer>
             <div class="container-fluid">
@@ -128,23 +147,26 @@
                     <div class="mb-3 col-md-3 col-lg-3 col-xl-2 mt-4 align-items-center">
                         <a href="./index.html"><img src="./assets/img/logo.png" alt="logo" class="logo" id="inicio"></a>
                     </div>
-            
                     <div class="col-md-2 col-lg-2 col-xl-2 mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="./pages/quienes_somos.html" class="text-white" style="text-decoration: none;">Nosotros</h4></a>  
+                        <h4 class="mb-4 font-weight-bold">
+                            <a href="./pages/quienes_somos.html" class="text-white" style="text-decoration: none;">
+                            Nosotros</a>
+                        </h4>  
                     </div>
             
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="#" class="text-white" style="text-decoration: none;">
+                        <h4 class="mb-4 font-weight-bold">
+                            <a href="./pages/bodega.html" class="text-white" style="text-decoration: none;">
                             Nuestros viñedos</a>
                         </h4> 
                     </div>
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
-                        <h4 class="mb-4 font-weight-bold"><a href="./pages/vinos.html" class="text-white" style="text-decoration: none;">Nuestros vinos</a>
+                        <h4 class="mb-4 font-weight-bold">
+                            <a href="./pages/vinos.html" class="text-white" style="text-decoration: none;">Nuestros vinos</a>
                         </h4>
                     </div>
             
-                    
                     <div class="col-md-4 col-lg-3 col-xl-2 mx-auto mt-4">
                         <h4 class="mb-4 font-weight-bold"> Contacto</h4>
                         <h5><i class="fas fa-home"></i> Luján de Cuyo, Mendoza, Argentina.</h5>
@@ -181,26 +203,22 @@
                     <hr class="my-2">
 
                     <!-- Empieza Copyright -->
-    
-                        <div class="container d-flex justify-content-center">
-                            <div class="row flex-xl-row">
-                                <h6 class="col mb-4">
-                                   © 2022 Melina Canteros |
-                                   Politicas de Privacidad |
-                                   Terminos y condiciones |
-                                   Beber con moderación. No se vende a menores de 18 años | Ley de consumo responsable | 
-                                   Defensa del consumidor
-                                </h6>
-                            </div>
+                    <div class="container d-flex justify-content-center">
+                        <div class="row flex-xl-row">
+                            <h6 class="col mb-4">
+                               © 2022 Melina Canteros |
+                               Politicas de Privacidad |
+                               Terminos y condiciones |
+                               Beber con moderación. No se vende a menores de 18 años | Ley de consumo responsable | 
+                               Defensa del consumidor
+                            </h6>
                         </div>
-                   
+                    </div>
                     <!--Termina Copyright -->  
                 </div>
             </div>   
         </footer>  
-        
         <!-- Termina footer -->
-        
     </body>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/wow.js"></script>

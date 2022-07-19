@@ -69,9 +69,19 @@
 /*                            <------- MEDIA VINOS------->                                              */
 
 
-@media screen and ( min-width: 576px){
+@media screen and (min-width: 576px){
     .gallery{
         margin: 2%;
+    }
+}
+@media screen and (min-width: 450px){
+    .gallery{
+        margin: 1%;
+    }
+    .gallery__img{
+        object-fit: cover;
+        width: 320px;
+        height: 250px;
     }
 }
 

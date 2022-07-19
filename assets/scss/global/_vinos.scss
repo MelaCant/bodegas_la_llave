@@ -74,13 +74,14 @@
         margin: 2%;
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 420px){
     .gallery{
         margin: 1%;
     }
     .gallery__img{
-        object-fit: cover;
-        width: 320px;
+        display: flex;
+        align-self: center;
+        width: 200px;
         height: 250px;
     }
 }

@@ -22,7 +22,7 @@
         <header>
             <div class="container-fluid p-0">
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12 p-0">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="../index.html">
@@ -60,36 +60,39 @@
 
         <main>
             <!-- Comienza img principal -->
-            <section class="container-fluid text-center p-0 m-0">
-                <picture>
-                  <img src="../assets/img/bodega.jpg" class="img-fluid animate__animated animate__fadeIn" alt="img-fluid">
-                </picture>
+            <section class="container-fluid p-0">
+                <div class="row">
+                    <picture class="col-12 p-0">
+                        <img src="../assets/img/bodega.jpg" class="img-fluid animate__animated animate__fadeIn p-0" alt="img-fluid">
+                    </picture>
+                </div>
+                
             <section>
             <!-- Termina img principal -->
             
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="display-1 mt-5 mb-5 wow animate__animated animate__slideInLeft">La Bodega</h1>
-                        <p class="wow animate__animated animate__slideInRight">La bodega está equipada con la más alta tecnología, respetando el cuidado del medio ambiente haciendo un uso responsable de los recursos.<br> Nuestros vinos son añejados en barriles de roble francés, una madera dura y aromática, con esencias que se combinan a la perfección con las características propias del vino. El tour por la bodega termina en la sala de degustación, en donde hay diferentes líneas como nuestro primer Malbec Orgánico, Pinot Noir, Cabernet Sauvignon, Sauvignon Blanc y Sirah, además de varios blends.
+            <div class="container-fluid d-flex p-0">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center p-0">
+                        <h1 class="display-1 mt-2 wow animate__animated animate__slideInLeft pt-4 pb-4 m-0">La Bodega</h1>
+                        <p class="wow animate__animated animate__slideInRight p-5 m-0">La bodega está equipada con la más alta tecnología, respetando el cuidado del medio ambiente.<br> Nuestros vinos son añejados en barriles de roble francés, una madera dura y aromática, con esencias que se combinan a la perfección con las características propias del vino. El tour por la bodega termina en la sala de degustación, en donde hay diferentes líneas como nuestro primer Malbec Orgánico, Pinot Noir, Cabernet Sauvignon, Sauvignon Blanc y Sirah, además de varios blends.
                         </p>
                         <!-- Comienza cards -->
-                        <div class="card-group mt-5 mb-2 mb-xl-5 shadow">
-                            <div class="card">
+                        <div class="card-group shadow p-5 justify-content-center">
+                            <div class="card m-0">
                               <img src="../assets/img/antiguedad.svg" class="card-img-top" alt="card-group-image">
                               <div class="card-body">
                                 <h5 class="card-title">Antigüedad</h5>
                                 <p class="card-text">Construida en 1901.</p>
                                </div>
                             </div>
-                            <div class="card">
+                            <div class="card m-0">
                               <img src="../assets/img/capacidad.svg" class="card-img-top" alt="card-group-image">
                               <div class="card-body">
                                 <h5 class="card-title">Capacidad</h5>
                                 <p class="card-text">1.500.000 litros</p>
                               </div>
                             </div>
-                            <div class="card">
+                            <div class="card m-0">
                               <img src="../assets/img/ubicacion.svg" class="card-img-top" alt="card-group-image">
                               <div class="card-body">
                                 <h5 class="card-title">Ubicación</h5>
@@ -97,43 +100,43 @@
                               </div>
                             </div>
                         </div>
-                        <!-- Termina cards -->
-                        <!-- Comienza carousel -->
-                        <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="bodega">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="bodega">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="bodega">
-                            </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <!-- Termina carousel -->
                     </div>
+                    <!-- Termina cards -->
+                    <!-- Comienza carousel -->
+                    <div id="carouselExampleIndicators" class="container carousel slide m-0 p-0 pb-3" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="bodega">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="bodega">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="bodega">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Termina carousel -->                   
                 </div>
             </div>  
         </main>
         
         <!-- Comienza footer -->
         <footer>
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
                 <div class="row text-white text-center " style="background-color: #242430;">
                     <div class="mb-3 col-md-3 col-lg-3 col-xl-2 mt-4 align-items-center">
                         <a href="../index.html"><img src="../assets/img/logo.png" alt="logo" class="logo" id="inicio"></a>

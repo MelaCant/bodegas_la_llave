@@ -44,9 +44,8 @@
 .gallery__img{
     transition: 0.3s;
     object-fit: cover;
-    width: 300px;
-    height: 250px;
-    overflow: hidden;
+    width: 276px;
+    height: 320px;
 }
 
 .gallery__img:hover{
@@ -74,17 +73,25 @@
         margin: 2%;
     }
 }
-@media screen and (min-width: 420px){
+
+
+@media screen and (max-width: 400px){
     .gallery{
         margin: 1%;
+        gap: 0.2rem;
+        padding: 0;
     }
     .gallery__img{
         display: flex;
         align-self: center;
-        width: 200px;
+        width: 180px;
         height: 250px;
     }
 }
+
+
+
+
 
 @media screen and (min-width: 1300px){
     .gallery{

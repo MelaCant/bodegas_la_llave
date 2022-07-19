@@ -23,7 +23,7 @@
             <!-- Comienza NavBar -->
             <div class="container-fluid p-0">
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12 p-0">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="#">
@@ -61,24 +61,27 @@
         
         <main>
             <!-- Comienza img principal -->
-            <div class="container-fluid p-0 m-0">
-                <section class="img__principal">
-                    <img src="./assets/img/logo.png" alt="logo" class="logo p-2 m-4 animate__animated animate__fadeIn animate__delay-1s">
-                    <h1 class="text-white animate__animated animate__fadeInDown animate__delay-1s p-2 display-5 text-center tittle__principal">
-                        Bienvenidos<br> somos<br> Bodegas La Llave
-                    </h1> 
-                </section>
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <section class="img__principal p-0">
+                        <img src="./assets/img/logo.png" alt="logo" class="logo p-2 m-4 animate__animated animate__fadeIn animate__delay-1s">
+                        <h1 class="text-white animate__animated animate__fadeInDown animate__delay-1s p-2 display-5 text-center tittle__principal">
+                            Bienvenidos<br> somos<br> Bodegas La Llave
+                        </h1> 
+                    </section>
+                </div>
             </div>
             <!-- Termina img principal -->
-            <!-- Comienza enólogos -->
-            <div class="container d-flex justify-content-center mt-5">
-                <div class="row flex-column flex-lg-row p-2">
+            
+            <div class="container d-flex justify-content-center p-0">
+                <div class="row flex-column flex-lg-row mt-5 m-3">
                     <div class="col-12 col-lg-6 p-0 text-center">
                         <picture>
                             <img src="./assets/img/enologo.jpg" class="img-fluid" alt="enologo">
                         </picture>
                     </div>
-                    <div class="col-12 col-lg-6 bg-light p-2 p-xl-5 ">
+                    <!-- Comienza enólogos -->
+                    <div class="col-12 col-lg-6 bg-light p-2 p-xl-5">
                         <h3><span class="tittle__enologo pt-4 pb-3">Enóloga</span><strong> Victoria Pernice</strong></h3>
                         <p class="mb-5 mt-3"><small>Heredera de Bodegas La Llave, ha elaborado vinos de distinción y reconocimiento internacional, sin alejarse de sus orígenes.</small>
                         </p>
@@ -87,13 +90,8 @@
                         </p>
                         <a class="btn"><small>VER MÁS</small></a>
                     </div>
-                </div>
-            </div>
-            <!-- Termina enólogos -->
-           
-            <!-- Comienza cards -->
-            <div class="container d-flex justify-content-center">
-                <div class="row flex-md-row justify-content-md-between pt-5 pb-5">
+                    <!-- Termina enólogos -->
+                    <!-- Comienza cards-->
                     <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
                         <div class="card shadow wow animate__animated animate__zoomIn">
                             <img src="./assets/img/restaurante.svg" class="card-img-top" alt="restaurante">
@@ -124,24 +122,27 @@
                             </div>
                         </div>
                     </div>
-                   <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
-                        <div class="card shadow wow animate__animated animate__zoomIn">
-                           <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda">
+                    <div class="col-12 mt-2 mb-2 col-md-6 col-lg-3 mt-md-5 mb-md-5">
+                            <div class="card shadow wow animate__animated animate__zoomIn">
+                            <img src="./assets/img/tienda.svg" class="card-img-top" alt="tienda">
                             <div class="card-body text-center">
                                 <h5><strong>Tienda</strong></h5>
                                 <p><small>Venta online en cajas de 6 botellas. Envío gratis</small></p>
                                 <a class="btn"><small>VER MÁS</small></a>
-                           </div>    
+                            </div>    
                         </div>
                     </div>
+                    <!-- Termina cards-->
                 </div>
-            </div> 
-            <!-- Termina cards -->
+            </div>
+            
+           
+           
         </main>
     
         <!-- Comienza footer -->
         <footer>
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
                 <div class="row text-white text-center " style="background-color: #242430;">
                     <div class="mb-3 col-md-3 col-lg-3 col-xl-2 mt-4 align-items-center">
                         <a href="./index.html"><img src="./assets/img/logo.png" alt="logo" class="logo" id="inicio"></a>

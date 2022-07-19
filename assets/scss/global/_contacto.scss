@@ -1,0 +1,33 @@
+.img_ubication{
+    width: 20%;
+}
+
+.form__principal{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/viniedo_contacto.jpg);
+}
+
+.form__container{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.section__form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    font-size: 1em;
+    font-weight: bold;
+    width: 80%; 
+}
+
+input, textarea{
+  border: solid 2px rgb(245, 242, 246);
+  padding: 10px;
+  margin: 5px 0px 10px;
+  background: rgba(185, 188, 194, 0.3);
+}

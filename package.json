@@ -2,7 +2,7 @@
   "author": "Melina Canteros",
   "description": "Proyecto Bodega La Llave",
   "license": "MIT",
-  "name": "nombre-de-mi-package",
+  "name": "bodegas_la_llave",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "build:css": "node-sass --output-style compressed assets/scss/style.scss assets/css/main.css"

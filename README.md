@@ -33,8 +33,7 @@ Dependencias
 
 - [Bootstrap](https://react-bootstrap.github.io/)
 
-100% Responsive Design
-
+100% Responsive Design 
 ## Powered By
 
 **Melina Canteros** - [MelaCant](https://github.com/MelaCant)

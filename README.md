@@ -26,8 +26,9 @@ Ejecturar el siguiente comando en consola:
 
 ## Construido con 🛠️
 
-- [HTML](https://html.com/)
-- [CSS](https://html.com/)
+- HTML
+- CSS
+- SASS
 
 Dependencias
 
